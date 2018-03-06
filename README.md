@@ -1,6 +1,6 @@
 # Image-Enhancement
 Different implementations of effective enhancement algorithms.
-Some examples of the full enhancement script:
+Some examples of the full enhancement script (2500x3382 Pixel):
 
 >>>> ./images/Results.png
 
