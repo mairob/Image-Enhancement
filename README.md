@@ -1,5 +1,9 @@
 # Image-Enhancement
 Different implementations of effective enhancement algorithms.
+Some examples of the full enhancement script:
+
+>>>> ./images/Results.png
+
 
 Implementation is "pure" or rather "poor" python and is meant to give a simple, easy and free to use example of some effective methods.
 
@@ -12,6 +16,7 @@ Papers used are
 
 >>>>  ADAPTIVE GAMMA CORRECTION: <<<<
 https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-016-0138-1#CR14
+
 
 @Article{Rahman2016,
 author="Rahman, Shanto
@@ -32,6 +37,7 @@ issn="1687-5281",
 doi="10.1186/s13640-016-0138-1",
 url="https://doi.org/10.1186/s13640-016-0138-1"
 }
+
 
 
 
