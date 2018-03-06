@@ -37,11 +37,6 @@ def wrapper(path):
 	hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 	h, s, v = cv2.split(hsv)
 
-	mean = np.mean(s)
-	std = np.std(s)
-	
-	print(np.mean(s), np.std(s))
-
 	gradient =  cv2.Laplacian(s,cv2.CV_32F, ksize = 1)  #cv2.Laplacian(s, cv2.CV_32F, ksize = 1) 
 	clipped_gradient = gradient * np.exp(-1 * np.abs(gradient) * np.abs(s - 0.5))
 
@@ -55,9 +50,8 @@ def wrapper(path):
 	s = np.multiply(s, factor)
 	s = cv2.convertScaleAbs(s)
 
-	
-	#v = adaptiveGammaCorrection(v)
-	v = adaptiveCLAHE(v)
+	v = adaptiveGammaCorrection(v)
+	#v = adaptiveCLAHE(v)
 	s = adaptiveCLAHE(s)
 	
 
