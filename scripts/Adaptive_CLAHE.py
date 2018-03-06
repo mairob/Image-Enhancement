@@ -1,3 +1,7 @@
+#! /usr/bin/python3
+import numpy as np
+import cv2
+
 def CLAHE(channel, limit, tiles):
 	"""Applies CLAHE via OpenCV implementation (can be used for Saturation or Value Channel of HSV-Space)
     Args:
