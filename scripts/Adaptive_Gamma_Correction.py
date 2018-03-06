@@ -1,6 +1,18 @@
 #! /usr/bin/python3
 import numpy as np
 
+def heaviside(x):
+	"""Implementation of the Heaviside step function (https://en.wikipedia.org/wiki/Heaviside_step_function)
+    Args:
+    x: Numpy-Array or single Scalar
+    Returns:
+    x with step values 	
+    """
+        if x <= 0:
+                return 0
+        else:
+                return 1
+
 def adaptiveGammaCorrection(v_Channel):
 	"""https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-016-0138-1#CR14 
 	Applies adaptive Gamma-Correction to V-Channels of an HSV-image.
@@ -65,11 +77,4 @@ def adaptiveGammaCorrection(v_Channel):
 	
 	return I_out.astype(np.uint8)
 
-def heaviside(x):
-	"""Implementation of the Heaviside step function (https://en.wikipedia.org/wiki/Heaviside_step_function)
 
-    """
-        if x <= 0:
-                return 0
-        else:
-                return 1
