@@ -7,6 +7,9 @@ from PIL import ImageFilter, ImageEnhance
 import cv2
 import os
 
+# You need to either import the Adaptive-CLAHE / Adap. Gamma scripts first
+# or just copy paste the code
+
 
 srcDirectory = r'../Originals'
 saveDirectory = r'../Enhanced/'
