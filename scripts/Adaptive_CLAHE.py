@@ -59,7 +59,7 @@ def adaptiveCLAHE(channel):
 	#resizing for drastic speedup with minor quality loss
 	channel = cv2.resize(channel, (0,0), fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA) 
 
-basic_limit = 0.5
+	basic_limit = 0.5
 	expanding = 0.01
 
 	res_entropys = []
