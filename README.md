@@ -2,7 +2,7 @@
 Different implementations of effective enhancement algorithms.
 Some examples of the full enhancement script (2500x3382 Pixel):
 
->>>> ./images/Results.png
+### ./images/Results.png
 
 
 Implementation is "pure" or rather "poor" python and is meant to give a simple, easy and free to use example of some effective methods.
@@ -14,7 +14,7 @@ If speed should be a problem, down scaling the image by factor 4 should give a h
 Papers used are
 
 
-#  ADAPTIVE GAMMA CORRECTION: 
+##  ADAPTIVE GAMMA CORRECTION: 
 https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-016-0138-1#CR14
 
 
@@ -41,7 +41,7 @@ url="https://doi.org/10.1186/s13640-016-0138-1"
 
 
 
-# ADAPTIVE CLAHE:
+## ADAPTIVE CLAHE:
 http://onlinepresent.org/proceedings/vol21_2013/52.pdf
 
 
