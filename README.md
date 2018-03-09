@@ -14,7 +14,7 @@ If speed should be a problem, down scaling the image by factor 4 should give a h
 Papers used are
 
 
->>>>  ADAPTIVE GAMMA CORRECTION: <<<<
+#  ADAPTIVE GAMMA CORRECTION: 
 https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-016-0138-1#CR14
 
 
@@ -41,7 +41,7 @@ url="https://doi.org/10.1186/s13640-016-0138-1"
 
 
 
->>>> ADAPTIVE CLAHE: <<<<
+# ADAPTIVE CLAHE:
 http://onlinepresent.org/proceedings/vol21_2013/52.pdf
 
 
